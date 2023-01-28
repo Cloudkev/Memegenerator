@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create-a-Meme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Create-a-meme</h1>
+<h2>Select your image and then add the text you would like to display at the top and the bottom of your meme!</h2>
+<body>
+    <form action="submit" id="form">
+           <input type="url" name="image" id="image" accept="jpg,jpeg" value="" placeholder="Please add Image URL">
+            <input type="text" name="top" id="toptext" placeholder="Input text to show on top">
+            <input type="text" name="bottom" id="bottomtext" placeholder="Input text to place on the bottom">
+            <button type="submit" id="generate">Generate</button>
+    </form>
+    <div id="show-image">
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
